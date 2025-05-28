@@ -32,7 +32,7 @@
    cd servpub
    ```
 
-2. **Prepare o ambiente** *(é rapidinho!)*  
+2. **Prepare o ambiente**  
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
