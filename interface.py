@@ -6,7 +6,7 @@ import xlwt
 
 
 def main(page: ft.Page):
-    page.title = "Atendimento VACOL"
+    page.title = "Atendimento"
     page.scroll = ft.ScrollMode.AUTO
     dados = carregar_dados()
 
