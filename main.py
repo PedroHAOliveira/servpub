@@ -70,14 +70,14 @@ class PDF(FPDF):
 
     def header(self):
         self.set_font('Arial', 'B', 12)
-        self.cell(0, 10, f'SOLICITAÇÃO DE SERVIÇO DE VACOL - Protocolo nº {self.protocolo_num}', ln=1, align='C')
+        self.cell(0, 10, f'SOLICITAÇÃO DE SERVIÇO - Protocolo nº {self.protocolo_num}', ln=1, align='C')
         self.ln(5)
 
     def footer(self):
         self.set_y(-25)
         self.set_font('Arial', '', 9)
-        self.multi_cell(0, 5, "Travessa João José de Andrade, s/n - Prainha - Arraial do Cabo - "
-                              "RJ\nEmail: servpublico@arraial.rj.gov.br", align='C')
+        self.multi_cell(0, 5, "Travessa João, s/n Cidade"
+                              "RJ\nEmail: algumemail@blabla.com, align='C')
 
 
 def gerar_pdf(info):
